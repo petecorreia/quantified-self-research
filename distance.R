@@ -1,8 +1,9 @@
 library(tidyverse)
+library(scales)
 library(ggthemes)
 library(zoo)
 
-Data <- read.csv(file="/Users/petecorreia/Desktop/health-data.csv")
+Data <- read.csv("data/multiple-daily-metrics.csv")
 Data$date <- as.Date(Data$start, format = "%d-%b-%Y")
 Data$distance <- as.numeric(Data$distance)
 Data$distance_ma <- rollmean(Data$distance, k = 30, fill = NA)
