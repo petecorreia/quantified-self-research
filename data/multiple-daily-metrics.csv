@@ -1,4 +1,4 @@
-start,finish,active-calories-kcal,distance,heart-rate-count-min,resting-calories-kcal,steps-count,weight-kg
+start,finish,active_calories_kcal,distance_km,heart_rate_count_min,resting_calories_kcal,steps_count,weight_kg
 29-Sep-2014,30-Sep-2014,0.0,2.64584995849605,0.0,0.0,3715.0,0.0
 30-Sep-2014,01-Oct-2014,0.0,5.33848346680165,0.0,0.0,7521.0,0.0
 01-Oct-2014,02-Oct-2014,0.0,3.85671597656406,0.0,0.0,5379.0,0.0
